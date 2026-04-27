@@ -4,7 +4,7 @@ trigger:
       - main
 
 pool:
-  name: "selfHostedPool"
+  name: "SelfHostedPool"
 
 
 variables:
