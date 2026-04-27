@@ -12,7 +12,7 @@ variables:
   - name: terraformVersion
     value: "1.9.8"
   - name: azureServiceConnection
-    value: "epicbook-sn"
+    value: "epicbook-spn"
   - name: sshPublicKeySecureFile
     value: "id_rsa.pub"
   - name: workingDirectory
