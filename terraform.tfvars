@@ -1,5 +1,5 @@
 admin_username      = "azureuser"
-location            = "South Africa North"
+location            = "canadacentral"
 resource_group_name = "epicbook-rg"
 
 address_space       = ["10.0.0.0/16"]
