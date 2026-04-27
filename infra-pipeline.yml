@@ -4,7 +4,7 @@ trigger:
       - main
 
 pool:
-  name: "linux_agent_pool"
+  name: "selfHostedPool"
 
 
 variables:
@@ -12,9 +12,9 @@ variables:
   - name: terraformVersion
     value: "1.9.8"
   - name: azureServiceConnection
-    value: "azure-devops-connections"
+    value: "epicbook-sn"
   - name: sshPublicKeySecureFile
-    value: "id_ed25519.pub"
+    value: "id_rsa.pub"
   - name: workingDirectory
     value: "$(Build.SourcesDirectory)"
 
