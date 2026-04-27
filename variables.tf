@@ -36,7 +36,7 @@ variable "vm_name" {
 variable "ssh_public_key" {
   description = "Path to the SSH public key used for VM access"
   type        = string
-  default     = "~/.ssh/id_ed25519.pub"
+  default     = "~/.ssh/id_rsa.pub"
 }
 
 variable "db_username" {
